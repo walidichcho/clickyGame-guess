@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Gordon",
+        "image": "https://vignette.wikia.nocookie.net/ttte/images/b/b2/Gordon%27sCGIModelUpdated.png/revision/latest?cb=20190731032919",
+        "playedBy": " Martin Sherman"
+    },
+    {
+        "id": 2,
+        "name": "Percy",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Thomas_and_Friends_Percy.jpg",
+        "playedBy": " Keith Wickham"
+    },
+    {
+        "id": 3,
+        "name": "Thomas",
+        "image": "https://redtricom.files.wordpress.com/2010/12/thomas.jpg",
+        "playedBy": " Benjamin Smal"
+    }
+]
