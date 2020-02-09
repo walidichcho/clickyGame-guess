@@ -9,11 +9,11 @@ function Nav(props) {
                 <h4 className="col-sm">
                     Clicky Game!
     </h4>
+                <h4 className="col-sm"> Message : </h4>
+                {this.state.message}
+
                 <h4 className="col-sm">
-                    {this.state.message}
-                </h4>
-                <h4 className="col-sm">
-                    {this.state.score} | {this.state.topscore}
+                    Score : {this.state.score} | Top Scores : {this.state.topscore}
                 </h4>
             </div>
         </div>

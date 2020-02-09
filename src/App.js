@@ -18,7 +18,7 @@ class App extends Component {
 
   };
 
-  clickPicture = (id) => {
+  clickPicture = id => {
     // Filter this.state.friends for friends with an id not equal to the id being removed
     const sufflePicture = this.sufflePicture(friends);
     // Set this.state.friends equal to the new friends array
@@ -26,18 +26,19 @@ class App extends Component {
 
     // if click image already exist in the clicked Array, set score to 0 and start the game.
     // empty the clicked array and send a message and update top score
-
-    if (!this.clickedArray.includes(props.id)) {
+    console.log('STATE', this.state.clickedArray)
+    console.log('type', typeof this.state.clickedArray)
+    if (this.state.clickedArray.includes(id)) {
       this.setState({
         clickedArray: [],
-        message: "sorry game over",
+        message: "Sorry, Incorrect!! Game Over Click an image to start again!",
         score: 0
       })
     }
     else {
       this.setState({
-        clickedArray: this.clickedArray,
-        message: "Good",
+        clickedArray: this.state.clickedArray.concat([id]),
+        message: "Correct!!, Good Job",
         score: this.state.score + 1,
       })
     }
@@ -66,10 +67,10 @@ class App extends Component {
               Clicky Game!
     </h4>
             <h4 className="col-sm">
-              {this.state.message}
-            </h4>
+              {this.state.message} </h4>
+
             <h4 className="col-sm">
-              {this.state.score} | {this.state.topscore}
+              Score :  {this.state.score} | Top Score : {this.state.topscore}
             </h4>
           </div>
         </div>

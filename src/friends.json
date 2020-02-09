@@ -16,5 +16,41 @@
         "name": "Thomas",
         "image": "https://redtricom.files.wordpress.com/2010/12/thomas.jpg",
         "playedBy": " Benjamin Smal"
+    },
+    {
+        "id": 4,
+        "name": "Henry",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Thomas_and_Friends_Henry.png",
+        "playedBy": "Keith Wickham"
+    },
+    {
+        "id": 5,
+        "name": "james",
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Thomas_and_Friends_James.jpg",
+        "playedBy": " Keith Wickham"
+    },
+    {
+        "id": 6,
+        "name": "Edward",
+        "image": "https://vignette.wikia.nocookie.net/ttte/images/5/53/MainEdwardCGI.png/revision/latest?cb=20200114050601",
+        "playedBy": " William Hope"
+    },
+    {
+        "id": 7,
+        "name": "Emily",
+        "image": "https://vignette.wikia.nocookie.net/ttte/images/3/3e/MainEmilyCGI.png/revision/latest?cb=20190611122922",
+        "playedBy": " Teresa Gallagher"
+    },
+    {
+        "id": 8,
+        "name": "Rosie",
+        "image": "https://vignette.wikia.nocookie.net/ttte/images/7/7c/MainRosieCGI1.png/revision/latest?cb=20171026021522",
+        "playedBy": " Teresa Gallagher"
+    },
+    {
+        "id": 9,
+        "name": "Nia",
+        "image": "https://vignette.wikia.nocookie.net/ttte/images/6/61/MainNiaCGI.png/revision/latest?cb=20181026131152",
+        "playedBy": " Teresa Gallagher"
     }
 ]
