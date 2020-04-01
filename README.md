@@ -22,6 +22,7 @@ Every time an image is clicked, the images rendered to the page should shuffle t
 
 Once the user's score is reset after an incorrect guess, the game should restart.
 
-## Website : https://walidichcho.github.io/clickyGame-guess/
+## Website : 
+https://walidichcho.github.io/clickyGame-guess/
 
 
